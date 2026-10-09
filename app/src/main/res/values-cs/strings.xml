@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PMA4</string>
+    <string name="rb_klasik">Monster Klasik</string>
+    <string name="rb_bily">Monster Bílý</string>
+    <string name="rb_lando">Monster Lando Norris</string>
+    <string name="cb_ledove">Ledově vychlazené</string>
+    <string name="cb_brcko">Přidat brčko</string>
+    <string name="btn_objednat">Objednat</string>
+    <string name="tv_souhrn">Souhrn objednávky:</string>
+    <string name="btn_vymazat">Vymazat</string>
+    <string name="text_vybrany_monster">Vybraný Monster:</string>
+    <string name="text_klasik">- Klasik (Zelený)</string>
+    <string name="text_bily">- Bílý (Ultra)</string>
+    <string name="text_lando">- Lando Norris</string>
+    <string name="text_nevybrano">- Nevybráno</string>
+    <string name="text_dalsi_pozadavky">Další požadavky:</string>
+    <string name="text_ledovy">- Chci ho ledový</string>
+    <string name="text_brcko">- Přidat brčko</string>
+    <string name="text_bez_uprav">- Bez úprav</string>
+    <string name="text_souhrn_nadpis">Souhrn objednávky:</string>
+</resources>

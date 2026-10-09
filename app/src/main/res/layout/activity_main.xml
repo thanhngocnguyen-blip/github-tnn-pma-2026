@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgMonster"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/mk" />
+
+    <RadioGroup
+        android:id="@+id/rgDruhy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/rbKlasik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_klasik"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbBily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_bily"/>
+
+        <RadioButton
+            android:id="@+id/rbLando"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_lando"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbLedove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cb_ledove" />
+
+    <CheckBox
+        android:id="@+id/cbBrcko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_brcko" />
+
+    <Button
+        android:id="@+id/btnObjednat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_objednat" />
+
+    <Button
+        android:id="@+id/btnVymazat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_vymazat" />
+
+    <TextView
+        android:id="@+id/tvSouhrn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_souhrn"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

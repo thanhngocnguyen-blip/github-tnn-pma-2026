@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PMA4</string>
+    <string name="rb_klasik">Monster Classic</string>
+    <string name="rb_bily">Monster White</string>
+    <string name="rb_lando">Monster Lando Norris</string>
+    <string name="cb_ledove">Ice cold</string>
+    <string name="cb_brcko">Add straw</string>
+    <string name="btn_objednat">Order</string>
+    <string name="tv_souhrn">Order summary:</string>
+    <string name="btn_vymazat">Clear</string>
+    <string name="text_vybrany_monster">Selected Monster:</string>
+    <string name="text_klasik">- Classic (Green)</string>
+    <string name="text_bily">- White (Ultra)</string>
+    <string name="text_lando">- Lando Norris</string>
+    <string name="text_nevybrano">- Not selected</string>
+    <string name="text_dalsi_pozadavky">Additional requests:</string>
+    <string name="text_ledovy">- I want it ice cold</string>
+    <string name="text_brcko">- Add a straw</string>
+    <string name="text_bez_uprav">- No modifications</string>
+    <string name="text_souhrn_nadpis">Order summary:</string>
+</resources>

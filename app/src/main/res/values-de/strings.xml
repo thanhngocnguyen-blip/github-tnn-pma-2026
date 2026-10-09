@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PMA4</string>
+    <string name="rb_klasik">Monster Klassisch</string>
+    <string name="rb_bily">Monster Weiß</string>
+    <string name="rb_lando">Monster Lando Norris</string>
+    <string name="cb_ledove">Eiskalt</string>
+    <string name="cb_brcko">Mit Strohhalm</string>
+    <string name="btn_objednat">Bestellen</string>
+    <string name="tv_souhrn">Bestellübersicht:</string>
+    <string name="btn_vymazat">Löschen</string>
+    <string name="text_vybrany_monster">Ausgewähltes Monster:</string>
+    <string name="text_klasik">- Classic (Grün)</string>
+    <string name="text_bily">- Weiß (Ultra)</string>
+    <string name="text_lando">- Lando Norris</string>
+    <string name="text_nevybrano">- Nicht ausgewählt</string>
+    <string name="text_dalsi_pozadavky">Zusätzliche Wünsche:</string>
+    <string name="text_ledovy">- Ich möchte es eiskalt</string>
+    <string name="text_brcko">- Strohhalm hinzufügen</string>
+    <string name="text_bez_uprav">- Keine Änderungen</string>
+    <string name="text_souhrn_nadpis">Bestellübersicht:</string>
+</resources>
