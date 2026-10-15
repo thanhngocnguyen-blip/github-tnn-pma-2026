@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNadpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Objednávka Monsteru"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgDruhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvNadpis"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbKlasik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klasik (40 Kč)"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbBily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bílý Ultra (45 Kč)" />
+
+        <RadioButton
+            android:id="@+id/rbLando"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lando (50 Kč)" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgMonster"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvNadpis"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/mk" />
+
+    <TextView
+        android:id="@+id/tvVybava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Něco navíc?"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/rgDruhy"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra led (+5 Kč)"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvVybava"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbBrcko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papírové brčko (+2 Kč)"
+        app:layout_constraintTop_toBottomOf="@id/cbLed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celková cena: 40 Kč"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/cbBrcko"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnObjednat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potvrdit objednávku"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
